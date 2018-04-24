@@ -242,23 +242,24 @@
 
                     <!-- Content -->
                     <div class="content">
-                        <form>
+					<span id="responseToUserRequest" style="color:white;font-size:1.5em;display:none;"></span>
+                        <form onsubmit="sendMessageClick(); return false;">
                             <div class="row 50%">
                                 <div class="6u 12u(mobile)">
-                                    <input type="text" name="name" placeholder="Name" />
+                                    <input id="name" type="text" name="name" placeholder="Name" />
                                 </div>
                                 <div class="6u 12u(mobile)">
-                                    <input type="text" name="email" placeholder="Email" />
+                                    <input id="email" type="text" name="email" placeholder="Email" />
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="12u">
-                                    <input type="text" name="subject" placeholder="Subject" />
+                                    <input id="subject" type="text" name="subject" placeholder="Subject" />
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="12u">
-                                    <textarea name="message" placeholder="Message" rows="7"></textarea>
+                                    <textarea id="message" name="message" placeholder="Message" rows="7"></textarea>
                                 </div>
                             </div>
                             <div class="row">
@@ -275,8 +276,6 @@
                                     <li>
                                         <a href="http://www.homeadvisor.com/rated.ByrdsPowerWashing.74918006.html" class="centerImage" style="margin: 0 auto;"><img alt="Screened Contractor on HomeAdvisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=74918006&key=318c11c2c57c9eb75527cde57f06251a" /></a>
 									</li>
-									
-									
 									
 								</ul>
 								<ul>

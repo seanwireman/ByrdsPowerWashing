@@ -13,7 +13,7 @@ function sendMessageClick(){
 	  //if invalid name, do the following
 	  if (!validateName(name)){
 		//Tell the user that their name is invalid
-	    respondToUserRequest("Please enter your name.",  "yellow");
+	    respondToUserRequest("Please enter your name.",  "#a22");
 		
 		//set the name textbox to empty so the user can retype it
 		document.getElementById("name").value = "";
@@ -24,7 +24,7 @@ function sendMessageClick(){
 	  //else if invalid email, do the following
 	  else if (!validateEmail(email)){
 		//Tell the user that their name is invalid
-	    respondToUserRequest("Please enter a valid email address.",  "yellow");
+	    respondToUserRequest("Please enter a valid email address.",  "#a22");
 		
 		//set the email textbx to empty so the user can retype it
 		document.getElementById("email").value = "";
@@ -35,7 +35,7 @@ function sendMessageClick(){
 	  //else if invalid subject, do the following
 	  else if (!validateSubject(subject)){
 		//Tell the user that their subject is invalid
-	    respondToUserRequest("Please enter a subject.",  "yellow");
+	    respondToUserRequest("Please enter a subject.",  "#a22");
 		
 		//set the email textbox to empty so the user can retype it
 		document.getElementById("subject").value = "";
@@ -47,7 +47,7 @@ function sendMessageClick(){
 	  //else if invalid message, do the following
 	  else if (!validateMessage(message)){
 		//Tell the user that their name is invalid
-	    respondToUserRequest("Please enter a message.",  "yellow");
+	    respondToUserRequest("Please enter a message.",  "#a22");
 		
 		//set the email textbox to empty so the user can retype it
 		document.getElementById("message").value = "";
@@ -74,7 +74,7 @@ function sendMessageClick(){
 			document.getElementById("message").value = "";
 
 			//inform the user that the message is sent
-			respondToUserRequest("Your message has been sent! Thank You!", "white");
+			respondToUserRequest("Your message has been sent! Thank You!", "#2a2");
 	  }
 	  return false;
 }
