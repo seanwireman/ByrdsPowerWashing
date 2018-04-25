@@ -7,12 +7,12 @@ $port = 587;
 
 
 //LOGIN INFO
-$email = "TruckEmailSender@gmail.com";
-$pass = "truckemailer";
+$email = "byrdspowerwashing@gmail.com";
+$pass = "Dustin1195";
 
 
 //EMAIL FORMATTING
 $from = "ByrdsPowerWashing Contact Form";
-$to = ["sean.wireman@gmail.com", "sean.wireman@altec.com", "prdiard@gmail.com"];
+$to = ["stephen@byrdspowerwashing.com", "dustin@byrdspowerwashing.com"];
 
 ?>
